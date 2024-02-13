@@ -311,3 +311,23 @@ if (s === "complete" || s === "loaded" || s === "interactive") init();
 else document.addEventListener("DOMContentLoaded", init, false);
 
 </script>
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyC4Y6Cg1K94Z_CpHkvdIMPdwUIQ1W_tapE",
+    authDomain: "project-v-smarw.firebaseapp.com",
+    projectId: "project-v-smarw",
+    storageBucket: "project-v-smarw.appspot.com",
+    messagingSenderId: "661042663946",
+    appId: "1:661042663946:web:34325f9c0ef9965f4145f3"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
